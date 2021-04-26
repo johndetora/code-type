@@ -1,5 +1,6 @@
 // Here is the library of phrases.
 // To do: organize into seperate languages function types
+
 export const phrases = [
     // HTML
     '<link rel="stylesheet" href="./styles/index.css"></link>',
