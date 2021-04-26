@@ -21,17 +21,13 @@ function startTimer() {
         // Call the getTimerTime function and have it display in page
         timer.innerText = getTimerTime();
     }, 1000);
-
+    // Kill meter work in progress
     setInterval(() => {
         if (getTimerTime() <= 10) {
             meter.append('$');
         } else meter.innerHTML = 'fail';
     }, 150);
 }
-
-function startMeter() {}
-
-function fillMeter() {}
 
 // Get random phrase from phrases[]
 function getRandomPhrase() {
