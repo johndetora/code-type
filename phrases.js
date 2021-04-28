@@ -15,6 +15,9 @@ export const phrases = [
     "const createSpan = document.createElement('span');",
     // modern js
     'vals = vals.map(x => x * 2);',
-    'array.reduce((accumulator, person) => accumulator + person.age), 0)',
-    'const result = words.filter(word => word.length > 6)',
+    'array.reduce((accumulator, person) => accumulator + person.age), 0);',
+    'const result = words.filter(word => word.length > 6);',
+    'evenNumbers = arr.filter(x => x % 2 ==1);',
+    // CSS
+    'grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));',
 ];
