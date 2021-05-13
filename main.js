@@ -22,11 +22,11 @@ function startTimer() {
         timer.innerText = getTimerTime();
     }, 1000);
     // Kill meter work in progress
-    setInterval(() => {
-        if (getTimerTime() <= 10) {
-            meter.append('$');
-        } else meter.innerHTML = 'fail';
-    }, 150);
+    // setInterval(() => {
+    //     if (getTimerTime() <= 10) {
+    //         meter.append('$');
+    //     } else meter.innerHTML = 'fail';
+    // }, 150);
 }
 
 // Get random phrase from phrases[]
@@ -80,4 +80,12 @@ function renderNewPhrase() {
     // Every time a new quote is rendered, reset the timer
     startTimer();
 }
+
+// Press control to render new phrase
+window.addEventListener('keydown', (e) => {
+    console.log(e.key);
+    if (e.key == 'Meta') {
+        renderNewPhrase();
+    }
+});
 renderNewPhrase();
