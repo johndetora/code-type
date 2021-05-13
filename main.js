@@ -80,4 +80,12 @@ function renderNewPhrase() {
     // Every time a new quote is rendered, reset the timer
     startTimer();
 }
+
+window.addEventListener('keydown', (e) => {
+    console.log(e.key);
+    if (e.key == 'Tab') {
+        console.log('clicked');
+        renderNewPhrase();
+    }
+});
 renderNewPhrase();

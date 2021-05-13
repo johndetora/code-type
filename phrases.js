@@ -20,6 +20,9 @@ export const phrases = [
     'const result = words.filter(word => word.length > 6);',
     'evenNumbers = arr.filter(x => !(x % 2));',
     "arr.filter((x) => typeof x == 'string');",
+
+    // Numbers
+    'const d20 = Math.floor(Math.random() * 20) + 1;',
     // CSS
     'grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));',
 ];
