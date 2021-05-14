@@ -14,6 +14,7 @@ export const phrases = [
     'let vals = [4, 8, 1, 2, 9, 6];',
     "document.addEventListener('click', ({target}) => {",
     "const createSpan = document.createElement('span');",
+    '`${variable1} ${variable2}`',
     // arrow functions
     'vals = vals.map(x => x * 2);',
     'array.reduce((accumulator, person) => accumulator + person.age), 0);',
