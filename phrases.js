@@ -10,7 +10,7 @@ export const phrases = [
     'const log = console.log;',
     "const element = document.querySelectorAll('.class');",
     'parseFloat(value).toFixed(2);',
-    'for (let i = 0; i < array.length; i++) {',
+    'for (let i=0; i<array.length; i++) {',
     'let vals = [4, 8, 1, 2, 9, 6];',
     "document.addEventListener('click', ({target}) => {",
     "const createSpan = document.createElement('span');",
